@@ -1,0 +1,8 @@
+services:
+  model-context-protocol:
+    build: ./dockerFile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    tty: true

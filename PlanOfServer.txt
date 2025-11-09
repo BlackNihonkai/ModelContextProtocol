@@ -1,0 +1,7 @@
+1. MCP SDK
+1.1 Pythonなどがある
+https://modelcontextprotocol.io/docs/sdk
+
+1.2 構築参考資料
+1.2.1 https://gihyo.jp/article/2025/06/monthly-python-2506
+1.2.2 https://zenn.dev/kiitosu/articles/31f55b99c33ce5

@@ -1,0 +1,12 @@
+services:
+  model-context-protocol:
+    build: ./dockerFile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    container_name: model-context-protocol-dev
+    restart: on-failure # 終了コードが0以外の場合に再起動を試みる
+    environment:
+      - PYTHONUNBUFFERED=1 # Pythonアプリケーションの場合、ログ出力を即座に行う
+    tty: true

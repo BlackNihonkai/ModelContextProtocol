@@ -1,5 +1,5 @@
 # requirements.txt
-mcp-sdk
+mcp
 uvicorn
 fastapi
 pydantic

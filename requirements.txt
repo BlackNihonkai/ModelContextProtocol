@@ -1,0 +1,5 @@
+# requirements.txt
+mcp-sdk
+uvicorn
+fastapi
+pydantic

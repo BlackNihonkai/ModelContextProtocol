@@ -1,6 +1,7 @@
 services:
   model-context-protocol:
-    build: ./dockerFile
+    build:
+      dockerfile: ./dockerfile
     ports:
       - "8000:8000"
     volumes:
